@@ -1,0 +1,13 @@
+# 🔒 গোপন তথ্য — কখনোই GitHub-এ উঠবে না
+.env
+.env.*
+!.env.example
+*.secret
+*.token
+
+# Cloudflare / Node
+.wrangler/
+node_modules/
+
+# সিস্টেম
+.DS_Store

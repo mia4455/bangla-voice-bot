@@ -1,0 +1,13 @@
+{
+  "name": "bangla-voice-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram Bangla Voice Bot (Female/Male preset voices) on Cloudflare Workers",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

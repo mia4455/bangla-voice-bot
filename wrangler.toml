@@ -1,0 +1,18 @@
+# Cloudflare Workers কনফিগ
+name = "bangla-voice-bot"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+workers_dev = true
+
+# ── KV বাইন্ডিং (ইউজারের ভয়েস-পছন্দ মনে রাখতে) ──────────────
+# নিচের ৩ লাইনের কমেন্ট (#) তুলে দিয়ে, Cloudflare থেকে পাওয়া
+# আপনার KV Namespace-এর আসল id বসিয়ে দিন।
+# KV বানাতে: Cloudflare Dashboard → Storage & Databases → KV → Create
+#
+# [[kv_namespaces]]
+# binding = "PREFS"
+# id = "এখানে_আপনার_KV_ID_বসান"
+
+# ⚠️ সতর্কতা: BOT_TOKEN কখনো এই ফাইলে লিখবেন না!
+# টোকেন বসবে Cloudflare Dashboard → Worker → Settings →
+# Variables and Secrets-এ "Secret" হিসেবে (এই repo পাবলিক হলেও নিরাপদ)।
