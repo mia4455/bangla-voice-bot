@@ -11,7 +11,7 @@ workers_dev = true
 #
 # [[kv_namespaces]]
 # binding = "PREFS"
-# id = "এখানে_আপনার_KV_ID_বসান"
+# id = "b5f099c36a774931b03c07e9baf9f8cf"
 
 # ⚠️ সতর্কতা: BOT_TOKEN কখনো এই ফাইলে লিখবেন না!
 # টোকেন বসবে Cloudflare Dashboard → Worker → Settings →
